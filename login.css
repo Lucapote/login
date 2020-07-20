@@ -1,6 +1,5 @@
 .body {
     width: 100%;
-    /* height: 661px; */
     height: 100vh;
     background-color: beige;
     display: flex;
@@ -16,6 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 35px;
 }
 
 /* ICONO */
@@ -47,12 +47,23 @@ form .formulario {
 
 .botones1 {
     margin-top: 15px;
-    height: 27px;
-    transition: border-radius 1s;
+    height: 28px;
+    border-radius: 5px;
+    transition-duration: 1s;
+    border: 2px black solid;
+    font-weight: bold;
+}
+
+#entrar {
+    background-color: #252d72;
+    color: white;
 }
 
 .botones1:hover {
     border-radius: 12px;
+    background-color: black;
+    border-color: gainsboro;
+    color: white;
 }
 
 #contraseña {
@@ -60,8 +71,20 @@ form .formulario {
 }
 
 div .datos {
-    height: 20px;
+    height: 28px;
     padding-left: 10px;
+    border-radius: 5px;
+    border: 2px black solid;
+    transition-duration: 1s;
+}
+
+div .datos:focus {
+    border-radius: 15px;
+    border-color: red;
+}
+
+div .datos:hover {
+    border-radius: 15px;
 }
 
 .linea {
