@@ -55,14 +55,21 @@ form .formulario {
 }
 
 #entrar {
-    background-color: #252d72;
+    background-color: red;
     color: white;
+    transition-duration: 1s;
+}
+
+#entrar:hover {
+    background-color: white;
+    color: red;
+    border-color: black;
 }
 
 .botones1:hover {
     border-radius: 12px;
     background-color: black;
-    border-color: gainsboro;
+    border-color: gray;
     color: white;
 }
 
